@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OpenSesameConsulting")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eceaf69dd07a0a279f06df4fb87499518d9df410")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6512c91633f19a67dcba7d10f55a4079148d28e")]
 [assembly: System.Reflection.AssemblyProductAttribute("OpenSesameConsulting")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OpenSesameConsulting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
