@@ -1,0 +1,120 @@
+﻿@{
+  ViewData["Title"] = "About Page";
+  Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<body>
+  <main id="main">
+    <section id="about" class="main-holder">
+      <!-- main header of the page -->
+      <div class="main-header bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-4 text-right col-sm-push-8">
+              <h2 class="main-heading" data-heading="01">about</h2>
+            </div>
+            <div class="col-xs-12 col-sm-8 text-right col-sm-pull-4">
+              <div class="txt-wrap">
+                <p>Lorem ipsum dolor sit amet, ac aptent pellentesque ac, urna libero enim<br> Malesuada ut pede wisi, vitae dapibus egestas, duis odio diam mollitia consequat<br> elementum </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- main header of the page end -->
+      <div class="holder">
+        <div class="col">
+          <!-- tabset of the page -->
+          <ul class="list-unstyled tabset">
+            <li>
+              <a href="#tab1" class="active">
+                <span class="icon"><i class="icon-house"></i><i class="icon-house"></i></span>
+                <span class="title">who we are</span>
+              </a>
+            </li>
+            <li>
+              <a href="#tab2">
+                <span class="icon"><i class="icon-robot"></i><i class="icon-robot"></i></span>
+                <span class="title">what we do</span>
+              </a>
+            </li>
+            <li>
+              <a href="#tab3">
+                <span class="icon"><i class="icon-route"></i><i class="icon-route"></i></span>
+                <span class="title">our mission</span>
+              </a>
+            </li>
+            <li>
+              <a href="#tab4">
+                <span class="icon"><i class="icon-business"></i><i class="icon-business"></i></span>
+                <span class="title">our strategy</span>
+              </a>
+            </li>
+          </ul>
+          <!-- tabset of the page end -->
+        </div>
+        <div class="col tab-content overlay bg-full" style="background-image: url(http://placehold.it/960x630);">
+          <!-- tab1 of the page -->
+          <div id="tab1" class="active">
+            <div class="txt-holder text-center">
+              <h3 class="heading text-uppercase">who we are</h3>
+              <p>Lorem ipsum dolor sit amet, ea tristique maecenas rhoncus magna fermentum. Ligula tortor consectetur vitae velit libero, etiam aliquam nibh. Ligula nostra wisi, sed accusantium maecenas aliquam facilisis, vitae voluptate vivamus ipsum, velit ligula, magna ridiculus mollis massa quis.</p>
+            </div>
+          </div>
+          <!-- tab1 of the page end -->
+          <!-- tab2 of the page -->
+          @* <div id="tab2">
+            <div class="txt-holder text-center">
+              <h3 class="heading text-uppercase">what we do</h3>
+              <p>Lorem ipsum dolor sit amet, ea tristique maecenas rhoncus magna fermentum. Ligula tortor consectetur vitae velit libero, etiam aliquam nibh. Ligula nostra wisi, sed accusantium maecenas aliquam facilisis, vitae voluptate vivamus ipsum, velit ligula, magna ridiculus mollis massa quis.</p>
+            </div>
+          </div>
+          <!-- tab2 of the page end -->
+          <!-- tab3 of the page -->
+          <div id="tab3">
+            <div class="txt-holder text-center">
+              <h3 class="heading text-uppercase">our mission</h3>
+              <p>Lorem ipsum dolor sit amet, ea tristique maecenas rhoncus magna fermentum. Ligula tortor consectetur vitae velit libero, etiam aliquam nibh. Ligula nostra wisi, sed accusantium maecenas aliquam facilisis, vitae voluptate vivamus ipsum, velit ligula, magna ridiculus mollis massa quis.</p>
+            </div>
+          </div>
+          <!-- tab3 of the page end -->
+          <!-- tab4 of the page -->
+          <div id="tab4">
+            <div class="txt-holder text-center">
+              <h3 class="heading text-uppercase">our strategy</h3>
+              <p>Lorem ipsum dolor sit amet, ea tristique maecenas rhoncus magna fermentum. Ligula tortor consectetur vitae velit libero, etiam aliquam nibh. Ligula nostra wisi, sed accusantium maecenas aliquam facilisis, vitae voluptate vivamus ipsum, velit ligula, magna ridiculus mollis massa quis.</p>
+            </div>
+          </div> *@
+          <!-- tab4 of the page end -->
+        </div>
+      </div>
+      <div class="holder">
+        <div class="col col4">
+          <header class="header">
+            <h2 class="heading text-uppercase">our best skills</h2>
+            <p>Lorem ipsum dolor sit amet, diam in vestibulum ornare eget integer, et <br>erat. Aenean pede. In sit volutpat nunc vel per habitasse. Amet morbi <br>amet malesuada et. Velit a neque condimentum, elementu.</p>
+          </header>
+          <!-- progress bar of the page -->
+          <ul class="progress-bar list-unstyled" id="progress-bar">
+            <li>
+              <span class="txt text-uppercase">design</span>
+              <span class="num">91%</span>
+              <span class="bar"><span data-percent="91%" class="over"></span></span>
+            </li>
+            <li>
+              <span class="txt text-uppercase">development</span>
+              <span class="num">83%</span>
+              <span class="bar"><span data-percent="83%" class="over"></span></span>
+            </li>
+            <li>
+              <span class="txt text-uppercase">branding</span>
+              <span class="num">75%</span>
+              <span class="bar"><span data-percent="75%" class="over"></span></span>
+            </li>
+          </ul>
+        </div>
+        <div class="col col3 overlay bg-full bg-full hidden-xs hidden-sm" style="background-image: url(http://placehold.it/961x560);"></div>
+      </div>
+    </section>
+  </main>
+</body>
