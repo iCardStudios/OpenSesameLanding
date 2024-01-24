@@ -36,19 +36,19 @@
     <div class="container-fluid header-holder">
       <!-- logo of the page -->
       <div class="logo">
-        <a href="#"><img src="/images/OSC Logo.jpeg" alt="Open Sesame Consulting Logo"></a>
+        <a href="@Url.Action("Index","Home")"><img src="/images/OSC Logo.jpeg" alt="Open Sesame Consulting Logo"></a>
       </div>
       <!-- logo of the page end -->
       <a href="#" class="nav-opener"><i class="fa fa-bars"></i></a>
       <!-- main nav of the page -->
       <nav id="nav">
         <ul class="list-unstyled">
-          <li><a class="smooth" href="#wrapper">home</a></li>
+          <li><a class="smooth" href="@Url.Action("Index","Home")">home</a></li>
           <li><a class="smooth" href="@Url.Action("About","Home")">about</a></li>
           <li><a class="smooth" href="@Url.Action("Features","Home")">features</a></li>
-          <li><a class="smooth" href="#works">works</a></li>
-          <li><a class="smooth" href="#team">team</a></li>
-          <li><a class="smooth" href="#blog">customer login</a></li>
+         @*  <li><a class="smooth" href="#works">works</a></li>
+          <li><a class="smooth" href="#team">team</a></li>*@
+          <li><a class="smooth" href="#blog">customer login</a></li> 
           <li><a class="smooth" href="@Url.Action("Contact","Home")">contact</a></li>
         </ul>
       </nav>
@@ -72,9 +72,9 @@
         <div class="col-xs-12 col-sm-6">
           <!-- social network of the page -->
           <ul class="list-unstyled social-network">
-            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="#"><i class="fa fa-behance"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+@*             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-behance"></i></a></li> *@
           </ul>
           <!-- social network of the page end -->
         </div>
