@@ -196,7 +196,24 @@ a:hover, a:focus, a.active { text-decoration: none; outline: none; }
 
 .overlay { z-index: 1; position: relative; }
 
-.overlay:before { position: absolute; content: ""; z-index: -1; left: 0; top: 0; bottom: 0; right: 0; opacity: 0.85; background: #000; }
+.overlay:before { position: absolute; content: ""; z-index: -1; left: 0; top: 0; bottom: 0; right: 0; opacity: 0.40; background: #ffffff; }
+
+/*.KeyOverlay {
+  z-index: 1;
+  position: relative;
+}
+
+  .KeyOverlay:before {
+    position: absolute;
+    content: "";
+    z-index: -1;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;*/
+    /*opacity: 0.85;
+    background: #000;*/
+  /*}*/
 
 .parallax { background-size: cover; background-position: center; background-attachment: fixed; background-repeat: no-repeat; }
 
@@ -748,7 +765,7 @@ body.boxed-v #wrapper { max-width: 80%; margin: 20px auto; -webkit-box-shadow: 0
 
 #comments ul.children { margin: 0; overflow: inherit; padding: 0 0 0 35px; list-style: none; }
 
-#comments .info { margin-bottom: 12px h5; margin-bottom-margin: 0; }
+#comments .info { margin-bottom: 12px ; margin-bottom: 0; }
 
 #comments .info .meta .date { display: inline; }
 

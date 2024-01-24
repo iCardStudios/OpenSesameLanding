@@ -2,76 +2,22 @@
   ViewData["Title"] = "Home Page";
 }
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Oreo - Ultimate Creative Landing Page</title>
-  <!-- include the site stylesheet -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700,900" rel="stylesheet">
-  <!-- include the site stylesheet -->
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <!-- include the site stylesheet -->
-  <link rel="stylesheet" href="css/icon-fonts.css">
-  <!-- include the site stylesheet -->
-  <link rel="stylesheet" href="css/plugins.css">
-  <!-- include the site stylesheet -->
-  <link rel="stylesheet" href="style.css">
-  <!-- include the site stylesheet -->
-  <link rel="stylesheet" href="css/colors.css">
-  <!-- include the site stylesheet -->
-  <link rel="stylesheet" href="css/responsive.css">
-</head>
 <body>
-  <header id="header">
-    <div class="bg-dark container-fluid">
-      <div class="top-nav text-right">
-        <a href="mailto:&#105;&#110;&#102;&#111;&#064;&#111;&#114;&#101;&#111;&#099;&#111;&#109;&#112;&#097;&#110;&#121;&#046;&#099;&#111;&#109;" class="mail">&#105;&#110;&#102;&#111;&#064;&#111;&#114;&#101;&#111;&#099;&#111;&#109;&#112;&#097;&#110;&#121;&#046;&#099;&#111;&#109;</a>
-        <!-- social network of the page -->
-        <ul class="list-unstyled social-network">
-          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-behance"></i></a></li>
-        </ul>
-        <!-- social network of the page end -->
-      </div>
-    </div>
-    <div class="container-fluid header-holder">
-      <!-- logo of the page -->
-      <div class="logo">
-        <a href="#"><img src="images/logo.png" alt="Oreo"></a>
-      </div>
-      <!-- logo of the page end -->
-      <a href="#" class="nav-opener"><i class="fa fa-bars"></i></a>
-      <!-- main nav of the page -->
-      <nav id="nav">
-        <ul class="list-unstyled">
-          <li><a class="smooth" href="#wrapper">home</a></li>
-          <li><a class="smooth" href="#about">about</a></li>
-          <li><a class="smooth" href="#features">features</a></li>
-          <li><a class="smooth" href="#works">works</a></li>
-          <li><a class="smooth" href="#team">team</a></li>
-          <li><a class="smooth" href="#blog">blog</a></li>
-          <li><a class="smooth" href="#contact">contact</a></li>
-        </ul>
-      </nav>
-      <!-- main nav of the page end -->
-    </div>
-  </header>
   <!-- header of the page end -->
   <!-- main of the page -->
   <main id="main">
     <!-- main banner of the page -->
-    <section class="main-banner overlay bg-full" style="background-image: url(http://placehold.it/1920x830)">
+    <section class="main-banner overlay bg-full" style="background-image: url(/images/Keys.jpeg)">
       <div class="caption text-center">
-        <span class="title">simple &amp; creative</span>
-        <h1>we are <span class="clr">oreo</span></h1>
-        <span class="sub-title">you will get more than you expected</span>
-        <a href="#" class="btn">learn more</a>
+    @*     <span class="title">simple &amp; creative</span> *@
+        <h1>we are <span class="clr"><i>Open Sesame Consulting</i></span></h1>
+       @*  <span class="sub-title">you will get more than you expected</span> *@
+        <a href="@Url.Action("About","Home")" class="btn">learn more</a>
       </div>
     </section>
     <!-- main banner of the page end -->
     <!-- main holder of the page -->
-    <section id="about" class="main-holder">
+@*     <section id="about" class="main-holder">
       <!-- main header of the page -->
       <div class="main-header bg-dark">
         <div class="container">
@@ -181,10 +127,10 @@
         </div>
         <div class="col col3 overlay bg-full bg-full hidden-xs hidden-sm" style="background-image: url(http://placehold.it/961x560);"></div>
       </div>
-    </section>
+    </section> *@
     <!-- main holder of the page end -->
     <!-- feature sec of the page -->
-    <section id="features" class="feature-sec">
+    @* <section id="features" class="feature-sec">
       <!-- main header of the page -->
       <div class="main-header left-heading bg-dark">
         <div class="container">
@@ -327,7 +273,7 @@
           <!-- tab content of the page end -->
         </div>
       </div>
-    </section>
+    </section> *@
     <!-- feature sec of the page end -->
     <!-- client sec of the page -->
     <section class="client-sec overlay bg-full" style="background-image: url(http://placehold.it/1920x620)">
@@ -711,7 +657,7 @@
     </section>
     <!-- blog sec of the page end -->
     <!-- contact sec of the page -->
-    <section id="contact" class="contact-sec">
+    @* <section id="contact" class="contact-sec">
       <!-- main header of the page -->
       <div class="main-header left-heading bg-dark">
         <div class="container">
@@ -804,7 +750,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> *@
     <!-- contact sec of the page end -->
   </main>
   <!-- main of the page end -->
@@ -830,12 +776,12 @@
   <!-- footer of the page end -->
   <!-- Back Top of the page -->
   <span id="back-top" class="fa fa-chevron-up"></span>
-  </div>
+  @* </div> *@
   <!-- include jQuery -->
-  <script src="js/jquery.js"></script>
+  @* <script src="js/jquery.js"></script>
   <!-- include jQuery -->
   <script src="js/plugins.js"></script>
   <!-- include jQuery -->
   <script src="js/jquery.main.js"></script>
-  <script type="text/javascript" defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuYrTpyrSuM32JCjwsk7lHAYGE7UoKbK0"></script>
+  <script type="text/javascript" defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuYrTpyrSuM32JCjwsk7lHAYGE7UoKbK0"></script> *@
 </body>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Logan\\source\\repos\\OpenSesameConsulting\\OpenSesameConsulting.csproj": {}
+    "C:\\Users\\Logan\\source\\repos\\OpenSesameLanding\\OpenSesameConsulting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Logan\\source\\repos\\OpenSesameConsulting\\OpenSesameConsulting.csproj": {
+    "C:\\Users\\Logan\\source\\repos\\OpenSesameLanding\\OpenSesameConsulting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Logan\\source\\repos\\OpenSesameConsulting\\OpenSesameConsulting.csproj",
+        "projectUniqueName": "C:\\Users\\Logan\\source\\repos\\OpenSesameLanding\\OpenSesameConsulting.csproj",
         "projectName": "OpenSesameConsulting",
-        "projectPath": "C:\\Users\\Logan\\source\\repos\\OpenSesameConsulting\\OpenSesameConsulting.csproj",
+        "projectPath": "C:\\Users\\Logan\\source\\repos\\OpenSesameLanding\\OpenSesameConsulting.csproj",
         "packagesPath": "C:\\Users\\Logan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Logan\\source\\repos\\OpenSesameConsulting\\obj\\",
+        "outputPath": "C:\\Users\\Logan\\source\\repos\\OpenSesameLanding\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",

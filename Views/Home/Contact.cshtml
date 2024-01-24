@@ -1,0 +1,103 @@
+﻿@{
+  ViewData["Title"] = "Contact Page";
+  Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<body>
+
+  <section id="contact" class="contact-sec">
+    <!-- main header of the page -->
+    <div class="main-header left-heading bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-4">
+            <h2 class="main-heading" data-heading="06">contact</h2>
+          </div>
+          <div class="col-xs-12 col-sm-8">
+            <div class="txt-wrap">
+              <p>Lorem ipsum dolor sit amet, ac aptent pellentesque ac, urna libero enim<br> Malesuada ut pede wisi, vitae dapibus egestas, duis odio diam mollitia consequat<br> elementum </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- main header of the page end -->
+    <div class="contact-holder overlay bg-full" style="background-image: url(http://placehold.it/1920x905)">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h3 class="main-heading text-center text-uppercase">say hello!</h3>
+            <!-- contact list of the page -->
+            <ul class="list-unstyled contact-list">
+              <li>
+                <i class="icon icon-telephone"></i>
+                <span class="tel">
+                  <a href="tel:12345678910">1 (234) 567 89 10</a>
+                  <a href="tel:00987654321">0 (098) 765 43 21</a>
+                </span>
+              </li>
+              <li>
+                <i class="icon icon-worldwide"></i>
+                <span class="mail">
+                  <a href="www.oreotheme.com">www.oreotheme.com</a>
+                  <a href="mailto:support@oreo.com;">support@oreo.com</a>
+                </span>
+              </li>
+              <li>
+                <i class="icon icon-map"></i>
+                <address>370 Fifth Avenue, 32th floor,<br>New York, NY 20228, USA</address>
+              </li>
+            </ul>
+            <!-- contact list of the page end -->
+            <!-- contact form of the page -->
+            <form action="inc/process.php" class="contact-form">
+              <div class="col">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Enter Your Name" name="name">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder="Enter Your Email" name="email">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Enter Subject" name="subject">
+                </div>
+              </div>
+              <div class="col textarea">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="comment"></textarea>
+                <button type="submit" class="btn btn4" id="form-submit">submit</button>
+              </div>
+            </form>
+            <!-- contact form of the page end -->
+            <div class="done-message">
+              <div class="holder"><strong>Thank you!</strong> We have received your message. </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="panel-group overlay" id="accordion" role="tablist" aria-multiselectable="true">
+      <div class="panel panel-default">
+        <div class="panel-heading text-center" role="tab" id="headingOne">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              find us on map <i class="fa fa-angle-double-down"></i>
+            </a>
+          </h4>
+        </div>
+        <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+          <div class="panel-body">
+            <!-- map -->
+            <div class="map" data-lat="52.392363" data-lng="1.480408" data-zoom="8">
+              <div class="map-info">
+                <h2>OREO</h2>
+                <p>Lorem ipsum dolor sit amet...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
